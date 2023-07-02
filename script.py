@@ -28,7 +28,7 @@ def Download(link):
             return file
 
 
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+openai.api_key = os.environ.get('API_KEY')
 
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
