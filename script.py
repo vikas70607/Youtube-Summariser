@@ -8,7 +8,7 @@ import os
 
 def subtitle_generator(filepath):
 
-    aai.settings.api_key = "1f6d91ba08a045d1882e3d57c5c88219"
+    aai.settings.api_key = "YOUR_API_KEY (ASSEMBLY AI)"
     transcriber = aai.Transcriber()
 
     transcript = transcriber.transcribe(f"{filepath}")
@@ -28,7 +28,7 @@ def Download(link):
             return file
 
 
-openai.api_key = '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'
+openai.api_key = 'OPENAI_API_KEY'
 
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
